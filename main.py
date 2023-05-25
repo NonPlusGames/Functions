@@ -5,14 +5,14 @@
 # output = function_call(arguments, separated, by, commas)
 
 
-# # DEFINE the function
-# def shout(name):
-#   name = name.upper()
-#   return "HELLO " + name + "!"
+# DEFINE the function
+def shout(name):
+  name = name.upper()
+  return "HELLO " + name + "!"
 
-# # CALL the function (use it)
-# shouted_name = shout("Jeremy") # Store the return of this function call in a variable
-# print(shouted_name) # Print the return of the function call
+# CALL the function (use it)
+shouted_name = shout("Jeremy") # Store the return of this function call in a variable
+print(shouted_name) # Print the return of the function call
 
 # # Functions with multiple parameters ---------------------
 # # Define the function
